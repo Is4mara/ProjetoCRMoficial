@@ -17,5 +17,7 @@ public class Vendedor extends Funcionario{
     public void setVendedor_meta(double vendedor_meta) {
         this.vendedor_meta = vendedor_meta;
     }
-
+    public void vendedor_visualizar(){
+        System.out.println("Vendedor\nComissão: "+getVendedor_comissao()+"\nMeta da comissão: "+getVendedor_meta());
+    }
 }
